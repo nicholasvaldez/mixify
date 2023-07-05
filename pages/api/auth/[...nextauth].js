@@ -1,6 +1,6 @@
 import spotifyApi, { LOGIN_URL } from "@/lib/spotify"
 import NextAuth from "next-auth"
-import SpoitifyProvider from "next-auth/providers/spoitify"
+import SpoitifyProvider from "next-auth/providers/spotify"
 
 async function refreshAccessToken(token) {
   try {
